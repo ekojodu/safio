@@ -459,8 +459,16 @@ a:hover {
 	html {
 		font-size: 50%;
 	}
-	.header .logo {
-		font-size: 0.5em;
+	.header {
+		max-width: 80%;
+	}
+	.header-right .open-menu-btn {
+		height: 30px;
+		width: 36px;
+	}
+
+	.header-right .open-menu-btn .line {
+		width: 24px;
 	}
 	section {
 		min-height: 40vh;
