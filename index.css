@@ -456,6 +456,9 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+	html {
+		font-size: 50%;
+	}
 	section {
 		min-height: 40vh;
 	}
