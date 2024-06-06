@@ -456,7 +456,10 @@ a:hover {
 }
 
 @media (max-width: 480px) {
-	header .logo {
+	html {
+		font-size: 50%;
+	}
+	.header .logo {
 		font-size: 0.5em;
 	}
 	section {
